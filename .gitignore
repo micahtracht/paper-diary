@@ -1,0 +1,47 @@
+# VSCode project settings
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Logs & system files
+*.log
+*.DS_Store
+*.swp
+Thumbs.db
+
+# Experiment outputs
+*.ckpt
+*.pt
+*.h5
+*.onnx
+*.pb
+*.npz
+*.npy
+
+# Data / model dumps
+data/
+outputs/
+checkpoints/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Mac and Windows cruft
+ehthumbs.db
+Icon?
