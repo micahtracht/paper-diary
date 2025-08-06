@@ -22,6 +22,8 @@ venv/
 *.DS_Store
 *.swp
 Thumbs.db
+.vscode/
+settings.*
 
 # Experiment outputs
 *.ckpt

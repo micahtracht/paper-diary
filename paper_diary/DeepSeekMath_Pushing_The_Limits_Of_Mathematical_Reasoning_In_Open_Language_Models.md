@@ -48,3 +48,5 @@ $$. I'll admit, this is scary looking. But it's actually not that bad. The first
  - We're still calling a response good and then updating all the tokens in it. Is there a way to allocate what tokens were helpful and what weren't *without* step-wise analysis? An idea that comes to mind for me is freezing the response after n tokens, and then sampling trajectories from those points. If the work preceding that point was correct, it'd have higher average rewards than baseline, and if it were incorrect, it'd have lower average rewards than baseline.
  - Does it work beyond math and other verifiable domains? Especially in domains where response quality difference is lower.
  - TRPO had guaranteed monotonic improvement (under certain assumptions). PPO, under more assumptions, did as well. Does the same hold for GRPO? And if so, how would you even go about proving that?
+
+[Paper Link (arXiv)](https://arxiv.org/abs/2402.03300)
